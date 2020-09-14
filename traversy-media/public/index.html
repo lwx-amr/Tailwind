@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body class="bg-blue-600 text-white pb-8">
+    <!-- Navbar Component -->
+    <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <span class="font-bold text-xl">Portfolio</span>
+        </div>
+        <div class="w-full block flex-grow sm:flex sm:items-center sm:w-auto">
+          <div class="text-sm sm:flex-grow">
+            <a
+              href="#"
+              class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Your Business
+            </a>
+            <a
+              href="#"
+              class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Networking
+            </a>
+            <a
+              href="#"
+              class="block mt-4 sm:inline-block sm:mt-0 text-teal-200 hover:text-white"
+            >
+              Blog
+            </a>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-500 hover:bg-white mt-4 md:mt-0"
+              >Login</a
+            >
+          </div>
+        </div>
+    </nav>  
+
+    <div class="container">
+        <!-- First One -->
+        <h1 class="text-white center my-6 text-center text-4xl">Hello World!</h1>
+        
+        <!-- Position Component -->
+        <div class="relative bg-blue-300 w-40 h-40 pt-5 pl-5">
+            <div class="absolute top-8 bg-gray-200 w-8 h-8">
+
+            </div>
+        </div>
+
+        <!-- Button Component -->
+        <button class="btn btn-red my-5 focus:outline-none">
+            Don't Click
+        </button>
+        <button class="btn bg-pink-600 text-white focus:outline-none">
+            Just Click
+        </button>
+
+        <!-- Alert Component -->
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative my-8" role="alert">
+            <strong class="font-bold">Alert!</strong>
+            <span class="block sm:inline">Please update password</span>
+        </div>
+
+        <!-- Card Component -->
+        <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-2xl">
+            <div class="flex-shrink-0">
+                <img src="images/logo.svg" alt="photo of me" class="w-12 h-13">
+            </div>
+            <div class="ml-6">
+                <h1 class="text-pink-700">My Portfolio</h1>
+                <p class="text-gray-600 mt-1">
+                    Check it, don't miss the big chance
+                </p>
+            </div>
+        </div>
+
+        <!-- Col Component -->
+        <div class="md:flex md:flex-wrap md:justify-between mt-8">
+            <div class="flex-1 bg-gray-100 text-gray-800 mx-4 p-4 text-center rounded mb-8 md:mb-0">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                      <img class="rounded-lg lg:w-64" src="https://i.ibb.co/mJJNkTJ/img2.jpg" alt="" />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                      <div
+                        class="uppercase tracking-wide text-sm text-indigo-700 font-medium"
+                      >
+                        Networking
+                      </div>
+                      <a
+                        href="#"
+                        class="block mt-1 text-lg leading-tight font-normal text-gray-700 hover:underline"
+                        >Finding connections to help your business grow</a
+                      >
+                    </div>
+                  </div>
+            </div>
+            <div class="flex-1 bg-gray-100 text-gray-800 mx-4 p-4 text-center rounded">
+                <div class="lg:flex lg:items-center">
+                    <div class="lg:flex-shrink-0">
+                      <img class="rounded-lg lg:w-64" src="https://i.ibb.co/w4wGYvQ/img1.jpg" alt="" />
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:ml-6">
+                      <div
+                        class="uppercase tracking-wide text-sm text-indigo-700 font-medium"
+                      >
+                      Marketing
+                      </div>
+                      <a
+                        href="#"
+                        class="block mt-1 text-lg leading-tight font-normal text-gray-700 hover:underline"
+                        >Finding customers for your new business</a
+                      >
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
